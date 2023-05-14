@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+* {
+    margin: 0;
+}
+
+body {
+    padding-top: 20px;
+    height: 100%vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.H2 {
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.headline {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20rem;
+    margin-top: 2rem;
+}
+
+.c1 {
+    inline-size: 580px;
+    /* border:3px solid blue;  */
+    color: rgb(23, 4, 76);
+    font-size: 5rem;
+    margin: 4rem;
+}
+
+.pic1 {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+
+.c2 {
+    justify-self: flex-start;
+    align-self: baseline;
+    inline-size: 380px;
+    /* border:3px solid green; */
+    color: gray;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+.btn1 {
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    margin-left: 4rem;
+    border-radius: 0.5rem;
+}
+
+.btn2 {
+    background-color: white;
+    color: goldenrod;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.section {
+    display: flex;
+    gap: 3rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+.header {
+    font-size: 2rem;
+    color: goldenrod;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+
+.pic2 {
+    height: 625px;
+    width: 625px;
+    border-radius: 50%;
+}
+
+.c3 {
+    inline-size: 580px;
+    /* border:3px solid blue; */
+    color: rgb(23, 4, 76);
+    font-size: 5rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+
+.c4 {
+    justify-self: flex-end;
+    align-self: baseline;
+    inline-size: 380px;
+    /* border:3px solid green; */
+    color: gray;
+    font-size: 1rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+
+.btn3 {
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 15px;
+    margin-left: 20rem;
+    border-radius: 0.5rem;
+}
+
+.v1 {
+    height: 150px;
+    width: 600p;
+    margin-left: 20rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.header4 {
+    margin-top: 6rem;
+    margin-left: 50%;
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+.header2 {
+    color: rgb(0, 0, 35);
+    font-size: 4rem;
+    margin-left: 32%;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15rem;
+    column-gap: 3rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.item1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    color: black;
+    position: relative;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.num1 {
+    color: goldenrod;
+    font-size: 4rem;
+    margin-left: 250px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.p1 {
+    margin-bottom: 1rem;
+}
+
+.item12 {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 275px;
+    background-color: goldenrod;
+    padding: 1em;
+    color: white;
+    position: relative;
+}
+
+.num2 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin-right: 2rem;
+    margin-left: 250px;
+    /* margin-bottom: 6rem;  */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.p2 {
+    margin-bottom: 1rem;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    padding: 1em;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.num3 {
+    color: goldenrod;
+    font-size: 4rem;
+    margin-left: 250px;
+    margin-bottom: 6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.p3 {
+    margin-bottom: 1rem;
+}
+
+.item3 {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 175px;
+    background-color: rgb(215, 215, 215);
+    padding: 1em;
+    /* position: relative; */
+}
+
+.item21 {
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 175px;
+    background-color: rgb(215, 215, 215);
+    padding: 1em;
+}
+
+.item31 {
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 175px;
+    background-color: rgb(215, 215, 215);
+    padding: 1em;
+}
+
+.Why-choose-us {
+    display: flex;
+    gap: 12.5rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+.c5 {
+    inline-size: 580px;
+    color: goldenrod;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.c6 {
+    inline-size: 580px;
+    /* border:3px solid blue;  */
+    color: rgb(23, 4, 76);
+    font-size: 3rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pic3 {
+    height: 400px;
+    width: 675px;
+    border-radius: 3%;
+}
+
+.c7 {
+    /* justify-self: flex-end;
+        align-self:  baseline; */
+    inline-size: 380px;
+    /* border:3px solid green; */
+    color: gray;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn4 {
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.full-menu {
+    display: column;
+}
+
+/* .menus{
+        margin: 8rem;
+    } */
+.menu {
+    margin-left: 740px;
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.menu1 {
+    margin-left: 565px;
+    font-size: 4rem;
+    color: rgb(0, 0, 35);
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+    /* height: 700px;
+        width: 1545px; */
+    display: grid;
+    margin: 1 auto;
+}
+
+.grid-item {
+    display: flex;
+    margin: 4rem;
+}
+
+.grey-circle {
+    /* position: absolute; */
+    margin: 1rem;
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.scallops {
+    /* position: absolute;  */
+    margin-top: 4rem;
+    margin-left: 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.description {
+    margin-top: 2rem;
+    /* position: absolute;  */
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 500px;
+    color: gray;
+}
+
+.btn5 {
+    font-size: 2rem;
+    color: white;
+    background-color: goldenrod;
+    padding: 15px;
+    border-radius: 0.5rem;
+    margin-left: 800px;
+}
+
+.consumer {
+    display: flex;
+    flex-direction: row;
+}
+
+.grey-box {
+    margin-top: 5rem;
+    height: 600px;
+    width: 900px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-left: 5rem;
+}
+
+.consumer-talk {
+    margin-top: 9rem;
+    margin-left: 58rem;
+    font-size: 3rem;
+    position: absolute;
+}
+
+.white-box {
+    margin-top: 13rem;
+    background-color: rgb(249, 247, 247);
+    height: 300px;
+    width: 600px;
+    margin-left: 45rem;
+    padding: 6rem;
+}
+
+.quote {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.gibberish {
+    color: grey;
+}
+
+.white-box-h2 {
+    margin-top: 3rem;
+}
+
+.blogger {
+    color: grey;
+}
+
+.arrows {
+    margin-left: 30rem;
+}
+
+.white-box-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin: 5rem;
+    background-color: rgb(249, 245, 245);
+    width: 1520px;
+    height: 275px;
+    border-radius: 2rem;
+    padding: 6rem;
+}
+
+.twenty {
+    font-size: 8rem;
+    color: goldenrod;
+}
+
+.year {
+    color: gray;
+}
+
+.fourk {
+    font-size: 8rem;
+    color: goldenrod;
+}
+
+.sc {
+    color: gray;
+}
+
+.threek {
+    font-size: 8rem;
+    color: goldenrod;
+}
+
+.tc {
+    color: gray;
+}
+
+.fortyfive {
+    font-size: 8rem;
+    color: goldenrod;
+}
+
+.aw {
+    color: gray;
+}
+
+.our-blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog {
+    color: goldenrod;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.article {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.grey-box1 {
+    margin-top: 10rem;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(211, 208, 208);
+    border-radius: 2rem;
+    margin-bottom: 18rem;
+}
+
+.prepare {
+    margin: 1rem;
+    display: flex;
+    margin-top: 25rem;
+    font-size: 2rem;
+}
+
+.date {
+    color: goldenrod;
+    margin: 1rem;
+    display: flex;
+}
+.footer{
+    width: 100vw;
+    height:40rem;
+    padding-right: 100px;
+    padding-top: 40px;;
+    background-color: black;;
+}
+.yellow-circle{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10rem;
+    margin-top:3rem;
+    position: absolute;
+}
+.logo{
+    color: goldenrod;
+    font-size: 3rem;
+    padding-left: 18rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
